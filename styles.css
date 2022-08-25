@@ -19,7 +19,6 @@ time, mark, audio, video {
 
 body {
     font-family:'Segoe UI', Verdana, sans-serif;
-
 }
 
 .header {
@@ -31,7 +30,7 @@ body {
 }
 
 #header-logo {
-    padding-left: 120px;
+    padding-left: 130px;
 }
 
 .header-links {
@@ -40,6 +39,37 @@ body {
     color: #E5E7EB;
     display: flex;
     flex-flow: row wrap;
-    padding-right: 180px;
+    padding-right: 140px;
     gap: 32px;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 48px 150px 48px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 48px;
+}
+
+.text-hero {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 4px 32px 4px 32px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+img {
+    width: 500px;
+    height: auto;
 }
