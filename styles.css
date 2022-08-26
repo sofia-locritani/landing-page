@@ -30,7 +30,7 @@ body {
 }
 
 #header-logo {
-    padding-left: 130px;
+    padding-left: 180px;
 }
 
 .header-links {
@@ -39,14 +39,14 @@ body {
     color: #E5E7EB;
     display: flex;
     flex-flow: row wrap;
-    padding-right: 140px;
+    padding-right: 190px;
     gap: 32px;
 }
 
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 48px 150px 48px 150px;
+    padding: 48px 200px 48px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,56 @@ button {
     font-weight: 700;
 }
 
-img {
+#main-img {
     width: 500px;
     height: auto;
+    border: none;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+.info {
+    text-align: center;
+    color: #1F2937;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+img {
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 8px;
+    vertical-align: top;
+}
+
+figure {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 320px 90px 320px;
+    font-size: 24px;
+    font-style: italic;
+    flex-flow: column nowrap;
+}
+
+#quote-author {
+    padding-left: 450px;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 24px;
 }
