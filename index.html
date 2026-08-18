@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 <body>
     <header>
-        <div>Header Logo</div>
+        <div class="bold">Header Logo</div>
         <nav>
             <ul>
                 <li>Home</li>
@@ -17,18 +18,19 @@
         </nav>
     </header>
 
-    <section>
+    <section class="hero">
         <div>
             <h1>This website is awesome</h1>
             <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
             <button>Sign up</button>
         </div>
-        <div>
-            <img src="placeholder.jpg" alt="Placeholder image">
+        <div id="heroimage">
+            <p>Placeholder image</p>
+            <!--<img src="placeholder.jpg" alt="Placeholder image">-->
         </div>
     </section>
 
-    <section>
+    <section class="cardlist">
         <h3>Some random information.</h3>
         <div>
             <div class="cards">
@@ -50,12 +52,12 @@
         </div>
     </section>
 
-    <section>
+    <section class="quote">
         <blockquote>Text</blockquote>
         <p>Author</p>
     </section>
 
-    <section>
+    <section class="cta">
         <div>
             <h3>Call to action! It's time!</h3>
             <p>Sign up for our product by clicking that button right over there!</p>
@@ -63,7 +65,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer class="footer">
         <p>Copyright</p>
     </footer>
 </body>
