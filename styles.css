@@ -74,3 +74,26 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.cardlist h1 {
+    text-align: center;
+    margin: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cards img {
+    width: 180px;
+    height: 180px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.cards p {
+    text-align: center;
+    margin: 5px;
+}
