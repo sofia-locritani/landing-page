@@ -33,24 +33,31 @@ ul {
     color: #E5E7EB;
 }
 
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
 .hero {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    gap: 36px;
+    gap: 54px;
+    padding-right: 60px;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
-    margin: 0;
+    margin: 30px 0;
 }
 
 .hero p {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 800px;
 }
 
 .hero button {
@@ -61,18 +68,15 @@ ul {
     background-color: #3882F6;
     border-style: none;
     border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-#heroimage {
-    width: 800px;
-    height: 200px;
-    background-color: rgb(132, 130, 130);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.hero img {
+    width: 600px;
+    height: 300px;
+    border: 2px solid;
+    border-color: #3882F6;
+    border-radius: 15px;
 }
 
 .cardlist h1 {
@@ -96,4 +100,47 @@ ul {
 .cards p {
     text-align: center;
     margin: 5px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 80px;
+    margin: 75px 0;
+}
+
+.quote blockquote {
+    max-width: 800px;
+    margin: auto;
+}
+
+.quote p {
+    max-width: 800px;
+    margin: auto;
+    text-align: right;
+    font-weight: 600;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.cta button {
+    padding: 8px 32px;
+    color:#E5E7EB;
+    font-weight: 600;
+    background-color: #3882F6;
+    border: 3px solid;
+    border-radius: 6px;
 }
